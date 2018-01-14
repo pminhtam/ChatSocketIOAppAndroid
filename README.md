@@ -1,4 +1,4 @@
-# ChatSocketIOAppAndroid
+﻿# ChatSocketIOAppAndroid
 
-D�ng server nodejs t?i https://github.com/pminhtam/ChatSocketIOServerWeb.git
-Chat gi?a c�c m�y android v?i nhau ho?c v?i web
+Dùng server nodejs tại https://github.com/pminhtam/ChatSocketIOServerWeb.git
+Chat giữa các máy android với nhau hoặc với web
