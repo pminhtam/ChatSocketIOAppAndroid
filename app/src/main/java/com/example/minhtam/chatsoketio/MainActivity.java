@@ -35,7 +35,8 @@ public class MainActivity extends AppCompatActivity {
     public Socket mSocket;
     {
         try {
-            mSocket = IO.socket("http://192.168.1.192:3000/");
+//            mSocket = IO.socket("http://192.168.1.192:3000/");
+            mSocket = IO.socket("https://minhtamchat.herokuapp.com");
         } catch (URISyntaxException e) {
 
             Log.e("mSocket","Bị lỗi");

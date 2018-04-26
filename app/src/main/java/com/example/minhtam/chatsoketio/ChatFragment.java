@@ -40,7 +40,6 @@ public class ChatFragment extends Fragment {
         mainActivity =(MainActivity) getActivity();
         Log.e("ChatFragment",mainActivity.a);
         adapter = new ArrayAdapter(mainActivity,android.R.layout.simple_list_item_1,mainActivity.msgList);
-
         lvChat.setAdapter(adapter);
         btnChat.setOnClickListener(new View.OnClickListener() {
             @Override
